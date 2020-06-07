@@ -1,0 +1,160 @@
+body {
+    background-image: url("https://i.ytimg.com/vi/TpY2dLeIWjs/maxresdefault.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    display: block;
+    text-align: center;
+
+
+
+}
+
+#navBar {
+    height: 5vw;
+    background-color: white;
+    opacity: 0.6;
+    /* background-color-op; */
+    width: 100%;
+}
+
+.navBarItem {
+    float: left;
+    padding-bottom: 0px;
+    margin: bottom:0px;
+    vertical-align: middle;
+    text-align: center;
+    font-family: "candara";
+    letter-spacing: -0.5;
+    /*    color: white;*/
+    font-size: 2vw;
+
+    padding: 0 3vw 0 3vw
+}
+
+.navBarLink {
+    padding-top: 0;
+    text-decoration: none;
+    color: black;
+    margin: 0 20 0 20;
+    /*    background-color:;*/
+
+
+}
+
+#searchBar {
+    color: black;
+    background-color: white;
+    border: 0.5px black solid;
+    height: 35px;
+    border-radius: 5px;
+    margin: 0 20 0 20;
+
+
+}
+
+.navBarLink:hover {
+    background-color: orange;
+    opacity: 1;
+    border-radius: 10px;
+    padding: 10 10 10 10;
+    /*    height: 50;*/
+    /*    width: 50%;*/
+}
+
+/*
+.navBarItem:active{
+    background-color: orange;
+    height: 50;
+    width: 100;
+    opacity: 1;
+}
+*/
+
+#searchIcon {
+    /*    padding: 0 10 0 10;*/
+    padding-left: 10;
+
+
+
+}
+
+#navList {
+    list-style: none;
+    float: left;
+    /* margin: 5 0 0 0; */
+
+
+}
+
+.subMenu {
+    display: none;
+    margin-left: 60;
+
+}
+
+
+.navBarItemWithMenu {
+    float: left;
+    padding-bottom: 0px;
+    margin: bottom:0px;
+    vertical-align: middle;
+    text-align: center;
+    font-family: "candara";
+    letter-spacing: -0.5;
+    /*    color: white;*/
+    font-size: 2vw;
+
+    padding: 0 5vw 0 3vw
+}
+
+.navBarItemWithMenu:hover .subMenu {
+    background-color: white;
+    display: block;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+
+}
+
+#ham:hover #options {
+    display: block;
+    background-color: yellow;
+}
+
+.search {
+    float: left;
+    padding-bottom: 0px;
+    margin: bottom:0px;
+    vertical-align: middle;
+    text-align: center;
+    font-family: "candara";
+    letter-spacing: -0.5;
+    color: white;
+    font-size: 2vw;
+
+}
+
+.bar {
+    background-color: white;
+    padding: 10 10 10 10;
+    display: none;
+    margin-top: 100px;
+
+}
+
+.search:hover .bar {
+    display: block;
+}
+
+#signUp {
+    width: 500;
+    height: 200;
+    /*    align-content: center;*/
+    text-align: center;
+    background-color: white;
+    display: inline-block;
+    margin-top: 20vw;
+
+}
